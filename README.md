@@ -8,7 +8,15 @@ To run the tests with Cypress in window mode you can run:
 ``` 
 npx cypress open 
 ```
+or 
+``` 
+npm run cy:open
+```
 To run the tests with Cypress in headless mode, just use the command:
 ``` 
 npx cypress run
+```
+or 
+``` 
+npm run test
 ```
