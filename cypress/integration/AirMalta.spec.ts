@@ -1,3 +1,6 @@
+// Wrote by Felipe Brandão Costa
+// Brazil, 18/07/2022.
+
 describe('AirMalta Airline', () => {
 
     it(`Get First Available Flight
