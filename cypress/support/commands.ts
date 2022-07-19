@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-// Selecting trip type
+// Selecting trip type (One Way or Round Trip)
 Cypress.Commands.add('selectTrip', (value: string) =>{
     cy.get('i').contains("arrow_drop_down").eq(0).click()
     cy.get('[class*=select-option]').contains(value).click()
@@ -47,6 +47,7 @@ Cypress.Commands.add('selectDestination', (airportDestination: string) =>{
 })
 
 // Selecting Departure
+// In this case, we select the current date to pick the first available flight
 Cypress.Commands.add('selectDeparture', () =>{
     cy.get('input[name*="DepartureDate"]').click()
     cy.get('[class*="DayPicker-Day"][aria-disabled="false"]').should('be.visible').first().click({force: true})
