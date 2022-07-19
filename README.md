@@ -4,11 +4,11 @@ To download this project dependencies just run the command below on your termina
 ``` 
 npm install 
 ```
-To run the tests with Cypress window mode you can run:
+To run the tests with Cypress in window mode you can run:
 ``` 
 npx cypress open 
 ```
-To run the tests with Cypress headless, just use the command:
+To run the tests with Cypress in headless mode, just use the command:
 ``` 
 npx cypress run
 ```
