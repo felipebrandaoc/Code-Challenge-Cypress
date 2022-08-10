@@ -1,4 +1,6 @@
-## Code Challenge - Testing Cypress with TypeScript
+# Code Challenge - AvantStay
+
+## This project is based on some test scenarios described on [AvantStay - BDD Scenarios](https://docs.google.com/document/d/1_r_m6BxkdW1yCXhtQzuu5GOtlVGAMW4VlIW1w7D3HnI/edit?usp=sharing)
 
 To download this project dependencies just run the command below on your terminal:
 ``` 
