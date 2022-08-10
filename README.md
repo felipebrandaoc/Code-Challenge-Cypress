@@ -29,5 +29,5 @@ The project is divided in:
     **- Plugins:** The plugins file is a special file that executes in Node before the project is loaded, before the browser launches, and during your test execution. While the Cypress tests execute in the browser, the plugins file runs in the background Node process, giving your tests the ability to access the file system and the rest of the operating system by calling the cy.task() command.<br />
     **- Support:** The support file is a great place to put reusable behavior such as custom commands or global overrides that you want applied and available to all of your spec files. This file runs before every single spec file.<br />
     **- Screenshots:** this folder contains some screenshots taken after each test scenario's run. This can help to evidence <br />
-    application's behaviour and examine bugs.
+    application's behaviour and examine/fix bugs.
     
